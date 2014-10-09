@@ -3,7 +3,11 @@
     "version": "0.1.0",
     "dependencies": {
         "montage": "~0.14.0",
-        "digit": "~0.5.0"
+        "digit": "~0.5.0",
+        "seraph": "0.9.11",
+        "seraph-model": "0.6.18",
+        "seraph-resource": "0.3.3",
+        "natural": "0.1.28"
     },
     "devDependencies": {
         "montage-testing": "~0.4.0"
@@ -12,5 +16,14 @@
         "run-tests.html",
         "test"
     ],
-    "bundle": [ "ui/main.reel" ]
+    "bundle": [
+        "ui/main.reel"
+    ],
+    "author": {
+        "name": "Kuew Labs | Brian Bagdasarian",
+        "email": "brian@kuew.me",
+        "url": "http://www.kuewlabs.com"
+    },
+    "license": "Dual",
+    "homepage": "http://www.kuewlabs.com/kip"
 }
